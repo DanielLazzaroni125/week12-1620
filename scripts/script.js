@@ -22,3 +22,15 @@ function clicked(){
 }
 clickButton.addEventListener('click', changeBGPink)
 clickButton.addEventListener('click', clicked)
+
+
+
+const image = document.querySelector('#shoppingCart')
+function updateImage(){
+    image.src="Images/cart.png";
+    image.width="100";
+    image.height="100";
+    // image.setAttribute('src',"Images/cart.png")
+}
+
+clickButton.addEventListener('click', updateImage)
