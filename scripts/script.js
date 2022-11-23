@@ -46,7 +46,7 @@ function changeBGGreen(e){
     }
 }
 
-buttonContainer.addEventListener('clicked', changeColour)
+buttonContainer.addEventListener('click', changeColour)
 function changeColour(e){
     e.target.style.color = e.target.textContent
 }
